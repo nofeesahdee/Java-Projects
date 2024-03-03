@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.text.*;
 
-public class Driver {
+public class Driver5 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your buying price per share:");

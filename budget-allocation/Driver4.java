@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Driver {
+public class Driver4 {
     public static void main(String[] args) {
         System.out.println("How much can you spend");
         Scanner scan = new Scanner(System.in);
@@ -13,10 +13,11 @@ public class Driver {
         System.out.println("The system stops if cummulative expense exceed 100%");
 
         do {
-            System.out.println("Your proportion of expense" + (i + 1) + ":");
+            System.out.println("Your proportion of expense " + (i + 1) + ":");
             double value = scan.nextDouble();
             proportion.add(value);
             sum += proportion.get(i);
+            i++;
         } while (sum <= 100);
         scan.close();
         if (sum > 100) {

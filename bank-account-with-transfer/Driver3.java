@@ -1,4 +1,4 @@
-public class Driver {
+public class Driver3 {
     public static void main(String[] args) {
         BankAccount tom = new BankAccount("Tom");
         tom.deposit(5000.0);
