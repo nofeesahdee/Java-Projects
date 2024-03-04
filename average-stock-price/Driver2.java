@@ -1,4 +1,4 @@
-public class Driver {
+public class Driver2 {
     public static void main(String[] args) {
         Stock abcCompany = new Stock();
         abcCompany.buy(36.6, 2000);
